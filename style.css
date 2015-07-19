@@ -1,0 +1,161 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+    background-color:#333333
+}
+
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  float:right;
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: -10px;
+}
+.logo a{
+  text-decoration: none;
+  color:#fff; 
+}
+.logo:hover{
+  color:deeppink;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+.jumbotron {
+  height: 800px;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display:inline;
+  margin:15px;
+  margin-top: -20px;
+  font-weight: bold;  
+  text-transform:uppercase;
+}
+
+li:hover{
+    color:deeppink;
+    font-weight: bold;
+}
+
+.jumbotron{
+    background:url("https://40.media.tumblr.com/31f24c22894d6d46a7b6f4b0687db9cd/tumblr_nrqrke8C951ubupxao1_1280.jpg")no-repeat center;
+    background-size:cover;
+}
+.btn-main:hover{
+background-color: deeppink;
+
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #fff;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-size: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+  padding: 0 50px;
+}
+
+.supporting a {
+    background-color:#fff;
+    font-size:12px;
+    border:1px solid #333333;
+    border-radius: 2px;
+    padding: 10px 50px;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    color:#000;
+}
+.supporting a:hover {
+  background-color:#000;
+    font-size:12px;
+    border:1px solid #333333;
+    border-radius: 2px;
+    padding: 10px 50px;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+}
